@@ -48,9 +48,9 @@
 
 ### Linux一键管理脚本(自带崩溃重启，但无开机自启)
 ```shell
-# 海外伺服器可用
+# 海外服务器可用
 bash <(curl -s -L https://ddl.ink/5mVL)
-# 大陆伺服器可用
+# 大陆服务器可用
 bash <(curl -s -L https://cdn.jsdelivr.net/gh/Minefrok/MinerProxy-Pro@main/scripts/manage_proxy2.sh)
 ```
 ```shell
