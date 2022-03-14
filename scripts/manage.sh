@@ -28,7 +28,7 @@ install(){
     wget https://github.com/Minefrok/MinerProxy-Pro/raw/main/others/cert.tar.gz -O /root/minerproxy_pro/cert.tar.gz
     tar -zxvf /root/minerproxy_pro/cert.tar.gz -C /root/minerproxy_pro
     
-    wget https://github.com/Minefrok/MinerProxy-Pro/releases/download/3.0.0/MinerProxy-Pro_v3.0.0_linux_amd64.tar.gz -O /root/MinerProxy-Pro_v3.0.0_linux_amd64.tar.gz
+    wget https://github.com/Minefrok/MinerProxy-Pro/raw/main/release/MinerProxy-Pro_v3.0.0_linux_amd64.tar.gz -O /root/MinerProxy-Pro_v3.0.0_linux_amd64.tar.gz
     tar -zxvf /root/MinerProxy-Pro_v3.0.0_linux_amd64.tar.gz -C /root/minerproxy_pro
     chmod 777 /root/minerproxy_pro/MinerProxy-Pro
 
