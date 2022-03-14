@@ -24,6 +24,8 @@
   • <a href="https://t.me/minerproxypro">Telegram 讨论群组</a>
 </p>
 
+![Screenshot](https://github.com/Minefrok/MinerProxy-Pro/raw/main/images/1.png)
+
 ## :sparkles: 特性
 
 * :cloud: 矿池转发：支持ETH/ETC的中继代理，支持Stratum/NiceHash/Stratum2所有协议，方便统一管理(其他币种即将更新)
