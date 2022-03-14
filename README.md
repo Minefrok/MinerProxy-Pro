@@ -25,6 +25,7 @@
 </p>
 
 ![Screenshot](https://github.com/Minefrok/MinerProxy-Pro/raw/main/images/1.png)
+![Screenshot](https://github.com/Minefrok/MinerProxy-Pro/raw/main/images/2.png)
 
 ## :sparkles: 特性
 
