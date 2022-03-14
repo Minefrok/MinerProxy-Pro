@@ -28,8 +28,6 @@
   <a href="https://t.me/go_minerproxy">Telegram 通知頻道</a>
 </p>
 
-![Screenshot](https://raw.githubusercontent.com/GoMinerProxy/GoMinerProxy/main/images/web_1.png)
-
 ## :sparkles: 特性
 
 * :cloud: 礦池轉發：支持ETH/ETC的中繼代理，支持Stratum/NiceHash/Stratum2所有協議，方便統一管理(其他幣種即将更新)
@@ -51,9 +49,6 @@
 ## :hammer_and_wrench: 部署
 
 最新軟件版本請見：<a href="https://github.com/GoMinerProxy/GoMinerProxy/releases">Github Release</a></br>
-Windows 直接下載適用於您目標機器操作系統、CPU架構的主程序，直接運行即可。<a href="https://gominerproxy.github.io/zh_hk/1%20-%20%E5%BF%AB%E9%80%9F%E9%96%8B%E5%A7%8B/1.1%20-%20Windows%E7%B3%BB%E7%B5%B1.html">Windows詳細教程</a>
-</br>
-Linux 可按照下述指令運行，請注意下載鏈接需要適用於您目標機器操作系統、CPU架構。<a href="https://gominerproxy.github.io/zh_hk/1%20-%20%E5%BF%AB%E9%80%9F%E9%96%8B%E5%A7%8B/1.2%20-%20Linux%E7%B3%BB%E7%B5%B1.html">Linux詳細教程</a>
 
 ### Linux一鍵管理脚本(自帶崩潰重啟，但無開機自啟)
 ```shell
@@ -66,7 +61,6 @@ bash <(curl -s -L https://cdn.jsdelivr.net/gh/GoMinerProxy/GoMinerProxy@main/scr
 # 再次SSH链接可以使用下述指令查看输出
 screen -r go_miner_proxy
 ```
-以上為最簡單的部署示例，您可以參考 [文檔 - 快速開始](https://gominerproxy.github.io/zh_hk/) 進行更為完善的部署。 
 
 ## :alembic: 技术栈
 
