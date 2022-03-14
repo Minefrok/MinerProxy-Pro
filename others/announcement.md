@@ -2,7 +2,7 @@
 ----
 #### 當前版本：{BUILD_VERSION}({BUILD_DATE})
 #### 最新版本：[V3.0.0_ETHASH(2022-03-15)](https://github.com/Minefrok/MinerProxy-Pro/releases/tag/3.0.0) - [[歷史更新日誌]](https://github.com/Minefrok/MinerProxy-Proy/releases)
-#### 聯繫我們：[Telegram 討論群組(歡迎向我們提出建議)](https://t.me/+afVqEXnxtQAyNWNh)、[GitHub](https://github.com/Minefrok/MinerProxy-Pro)
+#### 聯繫我們：[Telegram 討論群組(歡迎向我們提出建議)](https://t.me/minerproxypro)、[GitHub](https://github.com/Minefrok/MinerProxy-Pro)
 #### V3.0.0更新內容：此次版本為大版本更新，强烈推荐更新。
 - 對程式進行大幅度優化內存使用(實測60GH算力500帶機量情況下僅需360M內存)
 - 對茉莉(JasMiner)品牌的專業礦機進行優化實現完美兼容，並添加更多專業礦機支持
