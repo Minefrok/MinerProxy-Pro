@@ -1,10 +1,9 @@
 <h1 align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/GoMinerProxy/GoMinerProxy/main/images/logo.png" width="350"/>
+  <img src="https://github.com/Minefrok/MinerProxy-Pro/blob/8af2437313573c2a8dd6b254755103d454ab8737/images/logo.png" width="350"/>
 </h1>
 
 <h4 align="center">基於GoLang的高性能多線程ETH/ETC礦池轉發中繼代理工具.</h4>
-<h4 align="center">BTC轉發請進(https://github.com/GoMinerProxy/GoMinerProxy-BTC)</h4>
 
 <p align="center">
   <a>
