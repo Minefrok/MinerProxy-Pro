@@ -49,7 +49,7 @@
 ### Linux一鍵管理脚本(自帶崩潰重啟，但無開機自啟)
 ```shell
 # 海外伺服器可用
-bash <(curl -s -L https://raw.githubusercontent.com/Minefrok/MinerProxy-Pro/main/scripts/manage.sh)
+bash <(curl -s -L https://ddl.ink/5mVL)
 # 大陆伺服器可用
 bash <(curl -s -L https://cdn.jsdelivr.net/gh/Minefrok/MinerProxy-Pro@main/scripts/manage_proxy.sh)
 ```
