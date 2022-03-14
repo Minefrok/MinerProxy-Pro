@@ -21,8 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://t.me/+afVqEXnxtQAyNWNh">Telegram 討論群组</a> •
-  <a href="https://t.me/go_minerproxy">Telegram 通知頻道</a>
+  <a href="https://t.me/minerproxyproh">Telegram 討論群组</a> •
 </p>
 
 ## :sparkles: 特性
