@@ -23,11 +23,11 @@ install(){
     $cmd install wget screen -y
     
     mkdir /root/minerproxy_pro
-    wget https://cdn.jsdelivr.net/gh/Minefrok/MinerProxy-Pro@main/scripts/run.sh -O /root/minerproxy_pro/run.sh
-    chmod 777 /root/minerproxy_pro/run.sh
     wget https://cdn.jsdelivr.net/gh/Minefrok/MinerProxy-Pro@main/others/cert.tar.gz -O /root/minerproxy_pro/cert.tar.gz
     tar -zxvf /root/minerproxy_pro/cert.tar.gz -C /root/minerproxy_pro
-    
+    wget https://cdn.jsdelivr.net/gh/Minefrok/MinerProxy-Pro@main/scripts/run.sh -O /root/minerproxy_pro/run.sh
+    chmod 777 /root/minerproxy_pro/run.sh
+
     wget https://cdn.jsdelivr.net/gh/Minefrok/MinerProxy-Pro@main/release/MinerProxy-Pro_v3.0.0_linux_amd64.tar.gz -O /root/MinerProxy-Pro_v3.0.0_linux_amd64.tar.gz
     tar -zxvf /root/MinerProxy-Pro_v3.0.0_linux_amd64.tar.gz -C /root/minerproxy_pro
     chmod 777 /root/minerproxy_pro/MinerProxy-Pro
@@ -43,7 +43,7 @@ install(){
     echo "MinerProxy-Pro V3.0.0已經安裝到/root/minerproxy_pro"
     cat /root/minerproxy_pro/pwd.txt
     echo ""
-    echo "您可以使用指令screen -r minerproxy_pro查看程式端口和密碼"
+    echo "您可以使用指令screen -r minerproxy_pro查看程式輸出"
 }
 
 
@@ -98,7 +98,7 @@ start(){
     screen -r minerproxy_pro -p 0 -X stuff $'\n'
     screen -r minerproxy_pro -p 0 -X stuff "./run.sh"
     screen -r minerproxy_pro -p 0 -X stuff $'\n'
-    
+
     echo "MinerProxy-Pro已啟動"
     echo "您可以使用指令screen -r minerproxy_pro查看程式輸出"
 }
@@ -129,12 +129,13 @@ stop(){
 
 change_limit(){
     if grep -q "1000000" "/etc/profile"; then
-        echo -n "您的系統連接數限制可能已修改，當前連接限制："
+        echo -n "您的系统连接数限制可能已修改，当前连接限制："
         ulimit -n
         exit
     fi
 
     cat >> /etc/sysctl.conf <<-EOF
+
 fs.file-max = 1000000
 fs.inotify.max_user_instances = 8192
 
@@ -165,12 +166,12 @@ EOF
     echo "ulimit -SHn 1000000" >> /etc/profile
     source /etc/profile
 
-    echo "系統連接數限制已修改，手動reboot重啟下系統即可生效"
+    echo "系统连接数限制已修改，手动reboot重启下系统即可生效"
 }
 
 
 check_limit(){
-    echo -n "您的系統當前連接限制："
+    echo -n "您的系统当前连接限制："
     ulimit -n
 }
 
@@ -184,8 +185,8 @@ echo "  3、更  新"
 echo "  4、启  动"
 echo "  5、重  启"
 echo "  6、停  止"
-echo "  7、一鍵解除Linux連接數限制(需手動重啟系統生效)"
-echo "  8、查看當前系統連接數限制"
+echo "  7、一键解除Linux连接数限制(需手动重启系统生效)"
+echo "  8、查看当前系统连接数限制"
 echo "======================================================="
 read -p "$(echo -e "請選擇[1-8]：")" choose
 case $choose in
