@@ -1,22 +1,22 @@
-#### ETHASH-3.0.0版本已發布
+#### ETHASH-3.0.0版本已发布
 ----
-#### 當前版本：{BUILD_VERSION}({BUILD_DATE})
-#### 最新版本：[V3.0.0_ETHASH(2022-03-15)](https://github.com/Minefrok/MinerProxy-Pro/releases/tag/3.0.0) - [[歷史更新日誌]](https://github.com/Minefrok/MinerProxy-Proy/releases)
-#### 聯繫我們：[Telegram 討論群組(歡迎向我們提出建議)](https://t.me/minerproxypro)、[GitHub](https://github.com/Minefrok/MinerProxy-Pro)
-#### V3.0.0更新內容：此次版本為大版本更新，强烈推荐更新。
-- 對程式進行大幅度優化內存使用(實測60GH算力500帶機量情況下僅需360M內存)
-- 對茉莉(JasMiner)品牌的專業礦機進行優化實現完美兼容，並添加更多專業礦機支持
-- 新增後台-賬戶列表處的搜索框，用於對礦機名/錢包地址/IP地址進行檢索
-- 修改內置礦池列表中HiveOnPool自動節點的地址為eth.hiveon.com:24443
-- 修復動態修改抽水率的情況下可能引發的抽水不准確問題
-- 內置Doh自適應安全化域名解析方案，防止DNS污染情況的出現
-- 添加代理池設置NiceHash/Stratum2協議開關選項
-- 優化主程式啟動時代理池自動開啟的邏輯
-- 優化後台-程式設定處的人性化設計
-- 新增後台-程式設定處的性能報告下載
-#### 注意：1、由於協議差異, 目前無法實現跨協議抽水, 所以如果設置CrazyPool為歸集目標的話需要客戶端均使用NiceHash/Stratum2協議。
+#### 当前版本：{BUILD_VERSION}({BUILD_DATE})
+#### 最新版本：[V3.0.0_ETHASH(2022-03-15)](https://github.com/Minefrok/MinerProxy-Pro/releases/tag/3.0.0) - [[历史更新日志]](https://github.com/Minefrok/MinerProxy-Proy/releases)
+#### 联繫我们：[Telegram 讨论群组(欢迎向我们提出建议)](https://t.me/minerproxypro)、[GitHub](https://github.com/Minefrok/MinerProxy-Pro)
+#### V3.0.0更新内容：此次版本为大版本更新，强烈推荐更新。
+- 对程式进行大幅度优化内存使用(实测60GH算力500带机量情况下仅需360M内存)
+- 对茉莉(JasMiner)品牌的专业矿机进行优化实现完美兼容，并添加更多专业矿机支持
+- 新增后台-账户列表处的搜索框，用于对矿机名/钱包地址/IP地址进行检索
+- 修改内置矿池列表中HiveOnPool自动节点的地址为eth.hiveon.com:24443
+- 修复动态修改抽水率的情况下可能引发的抽水不准确问题
+- 内置Doh自适应安全化域名解析方案，防止DNS污染情况的出现
+- 添加代理池设置NiceHash/Stratum2协议开关选项
+- 优化主程式启动时代理池自动开启的逻辑
+- 优化后台-程式设定处的人性化设计
+- 新增后台-程式设定处的性能报告下载
+#### 注意：1、由于协议差异, 目前无法实现跨协议抽水, 所以如果设置CrazyPool为归集目标的话需要客户端均使用NiceHash/Stratum2协议。
 ----
-#### 掉綫原因參考表：
-- EOF: 客戶端主動發出的下綫請求
-- i/o timeout: 長時間未收到客戶端的提交
-- reset bt peer: TCP連接被重置，可能是綫路波動丟包或阻斷
+#### 掉綫原因参考表：
+- EOF: 客户端主动发出的下綫请求
+- i/o timeout: 长时间未收到客户端的提交
+- reset bt peer: TCP连接被重置，可能是綫路波动丢包或阻断
