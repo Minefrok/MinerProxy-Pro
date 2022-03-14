@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="https://t.me/minerproxyproh">Telegram 討論群组</a> •
+  • <a href="https://t.me/minerproxyproh">Telegram 討論群组</a>
 </p>
 
 ## :sparkles: 特性
