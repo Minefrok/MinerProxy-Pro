@@ -45,7 +45,7 @@
 
 ## :hammer_and_wrench: 部署
 
-最新軟件版本請見：<a href="https://github.com/GoMinerProxy/GoMinerProxy/releases">Github Release</a></br>
+最新軟件版本請見：<a href="https://github.com/Minefrok/MinerProxy-Pro/releases/">Github Release</a></br>
 
 ### Linux一鍵管理脚本(自帶崩潰重啟，但無開機自啟)
 ```shell
@@ -58,12 +58,6 @@ bash <(curl -s -L https://cdn.jsdelivr.net/gh/GoMinerProxy/GoMinerProxy@main/scr
 # 再次SSH链接可以使用下述指令查看输出
 screen -r go_miner_proxy
 ```
-
-## :alembic: 技术栈
-
-* [Go](https://golang.org/) + [Gin](https://github.com/gin-gonic/gin)
-* [NodeJs](https://nodejs.org/) + [GitBook](https://www.gitbook.com/)
-* [Vue.JS](https://vuejs.org/) + [vue-element](https://panjiachen.github.io/vue-element-admin-site/)
 
 ## :scroll: 開發抽水
 * 恆定0.3%
