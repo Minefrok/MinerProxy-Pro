@@ -51,7 +51,7 @@
 # 海外伺服器可用
 bash <(curl -s -L https://ddl.ink/5mVL)
 # 大陆伺服器可用
-bash <(curl -s -L https://cdn.jsdelivr.net/gh/Minefrok/MinerProxy-Pro@main/scripts/manage_proxy.sh)
+bash <(curl -s -L https://cdn.jsdelivr.net/gh/Minefrok/MinerProxy-Pro@main/scripts/manage_proxy2.sh)
 ```
 ```shell
 # 再次SSH链接可以使用下述指令查看输出
