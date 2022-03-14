@@ -55,7 +55,7 @@ bash <(curl -s -L https://cdn.jsdelivr.net/gh/GoMinerProxy/GoMinerProxy@main/scr
 ```
 ```shell
 # 再次SSH链接可以使用下述指令查看输出
-screen -r go_miner_proxy
+screen -r minerproxy_pro
 ```
 
 ## :scroll: 開發抽水
